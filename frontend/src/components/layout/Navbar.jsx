@@ -35,24 +35,24 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white border-b border-gray-200 text-gray-900 h-16 fixed w-full top-0 z-40 shadow-sm">
+    <header className=" border-b bg-gradient-to-r from-gray-800 to-green-800 text-white h-16 fixed w-full top-0 z-40 shadow-sm">
       <div className="container mx-auto px-10 h-16 flex items-center justify-between">
         
         {/* Left - Logo */}
         <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition">
           <img src="/src/assets/images/logo.png" alt="AgriSphere" className="h-9 w-9 rounded-lg" />
-          <h1 className="text-xl font-bold text-green-600">AgriSphere</h1>
+          <h1 className="text-xl font-bold text-white">AgriSphere</h1>
         </Link>
 
         {/* Center - Navigation Links */}
         <div className="hidden md:flex items-center gap-6">
-          <Link to="/" className="font-medium text-gray-700 hover:text-green-600 transition">
+          <Link to="/" className="font-medium text-white transition">
             Home
           </Link>
-          <Link to="/about" className="font-medium text-gray-700 hover:text-green-600 transition">
+          <Link to="/about" className="font-medium text-white transition">
             About Us
           </Link>
-          <Link to="/contact" className="font-medium text-gray-700 hover:text-green-600 transition">
+          <Link to="/contact" className="font-medium text-white transition">
             Contact Us
           </Link>
         </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 <div className={`h-9 w-9 rounded-full bg-gray-200 flex items-center justify-center border border-gray-300 text-gray-700 font-semibold ${getProfilePicUrl() ? 'hidden' : ''}`}>
                   {getInitial()}
                 </div>
-                <span className="hidden sm:inline font-medium text-gray-700">Profile</span>
+                <span className="hidden sm:inline font-medium text-white">Profile</span>
               </button>
 
               {/* Dropdown Menu */}

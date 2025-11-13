@@ -1,0 +1,110 @@
+
+MARKS DISTRIBUTION -50
+
+
+# AgriFarma — 50-Mark Rubric
+
+
+
+## 1) User Profile & Authentication — 8 marks
+
+* *(3)* Registration + login + secure password hashing and session handling
+
+  * 3: fully working (validation, hashed passwords, session login/logout).
+  * 1–2: partial (e.g., login works but password not hashed, or missing validation).
+* *(2)* Profile fields present & editable (name, email, mobile, city/state/country, profession, expertise, picture)
+
+  * 2: all fields present + edit profile works.
+  * 1: some fields missing/edit not working.
+* *(1)* Password reset/change functionality
+
+  * 1: implemented and secure (email/token or in-app change with current password).
+  * 0: not present.
+* *(1)* Profile display (join date, #posts, #likes, links to recent posts)
+
+  * 1: shows meaningful info.
+  * 0: not implemented.
+* *(1)* Picture upload & storage handling (path + default image)
+
+  * 1: works & safe file handling.
+  * 0: not implemented or insecure.
+
+---
+
+## 2) Discussion Forum — 8 marks
+
+* *(2)* Admin creates categories & subcategories (hierarchy)
+* *(2)* Users can create threads and replies; nested replies supported
+* *(1)* Thread/post administration (admin can delete/move threads)
+* *(1)* Search in forum (basic keyword search)
+* *(1)* Latest posts visible in sidebar (dynamic)
+* *(1)* Moderation controls (lock/pin thread, move thread)
+
+Scoring: full marks when all features work reliably and permissions enforced (only admin can delete/move). Partial credit for partial functionality.
+
+---
+
+## 3) Knowledge Base / Blogs — 6 marks
+
+* *(2)* Admin categories + user post creation (blogs)
+* *(1)* Media attachments in posts (images, video, ppt, docs) — upload & safe serving
+* *(1)* Tagging (Farmer Experience, Success Stories, etc.) + search/filter by tag
+* *(1)* Comments on blogs (and admin moderation of comments)
+* *(1)* Latest posts section / sidebar feed
+
+---
+
+## 4) Consultancy Services — 4 marks
+
+* *(2)* Consultants registration workflow + profile (users register as consultant)
+* *(1)* Admin approval/activation of consultant profiles
+* *(1)* Consultant listing/search by category/expertise
+
+---
+
+## 5) E-Commerce / Marketplace — 10 marks
+
+* *(3)* Product CRUD & categories (admin & farmer can post)
+* *(2)* Product listing details: images, specs, price, seller contact, multiple images
+* *(2)* Cart & basic checkout flow (add to cart, view cart, place order)
+* *(1)* Order management for admin (view orders, change status)
+* *(1)* Auto-remove old posts or mark inactive after configurable days
+* *(1)* Search & filters on shop (category, name, price range)
+
+Higher marks if product lifecycle and seller permissions are properly enforced.
+
+---
+
+## 6) Admin Panel & Management — 5 marks
+
+* *(2)* Central admin dashboard with stats and navigation to modules
+* *(1)* User management (view, edit, add, delete) with roles assignment
+* *(1)* Module management pages (forum categories, KB categories, shop categories)
+* *(1)* Site settings (e.g., auto-delete age, site contact, featured items)
+
+---
+
+## 7) UI / Responsiveness / UX — 4 marks
+
+* *(2)* Responsive pages for mobile/tablet/desktop and consistent layout
+* *(1)* Clean forms with inline validation/error messages and preserved inputs on error
+* *(1)* Accessibility basics (labels, alt texts, semantic markup)
+
+---
+
+## 8) Code Quality, Security & Database — 3 marks
+
+* *(1)* Clean, modular code and blueprints; sensible models & relationships
+* *(1)* Basic security best practices (hashed passwords, secure file uploads, role checks for admin actions)
+* *(1)* DB handling & migrations (no destructive changes, use Alembic or documented migration steps)
+
+---
+
+## 9) Documentation — 2 marks
+
+* *(1)* README with setup, how to run, env variables, DB migration steps
+* *(1)* Demo evidence (screenshots or short video link) or live deployment instructions
+
+---
+
+# Total = 50 marks

@@ -107,23 +107,23 @@ const HeroCarousel = () => {
       <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center relative z-10">
         <div className="relative">
           <img
-            src="/src/assets/images/pexels-tkirkgoz-11500221.jpg"
+            src="/src/assets/images/project/project-5.jpg"
             alt="Modern Agriculture"
             className="max-w-lg w-full object-cover rounded-3xl shadow-2xl border-4 border-white"
           />
           {/* Floating Cards */}
-          <div className="absolute -top-4 -left-4 bg-white rounded-xl shadow-lg p-4 hidden md:block">
+          {/* <div className="absolute -top-4 -left-4 bg-white rounded-xl shadow-lg p-4 hidden md:block">
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               <span className="text-sm font-semibold text-gray-800">Crop Health: Excellent</span>
             </div>
-          </div>
-          <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-4 hidden md:block">
+          </div> */}
+          {/* <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-4 hidden md:block">
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
               <span className="text-sm font-semibold text-gray-800">Weather: Optimal</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
